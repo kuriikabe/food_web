@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Order</title>
+
+        <style>
+            *{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(54, 9, 188);
+            background: linear-gradient(90deg, rgb(54, 52, 171) 0%, rgb(86, 63, 218) 100%);
+        }
+            nav, ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: auto;
+            background-color: rgb(54, 9, 188);
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: #111;
+        }
+        header {
+            background-color: rgb(54, 9, 188);
+        }
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 30px;
+            list-style: list;
+        }
+        form {
+
+            text-align: center;
+            margin-top: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+
+        }
+
+            </style>
+
+    </head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="instructions.html">Instructions</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        
+        <nav>
+            <ul>
+                <li><a href="signin.html"> Sign up / Sign in</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>
+            Order
+        </h2>
+
+    </main>
+<form>
+    <br>
+    <br>
+    <br>
+    Ham and Cheese <input type="number" minlength="0">
+    Mac and Cheese <input type="number" minlength="0">
+    Turkey and Cheese <input type="number" minlength="0">
+    Salami and Cheese <input type="number" minlength="0">
+    Veggie and Cheese <input type="number" minlength="0">
+
+    <br>
+    <br>
+    <br>
+
+
+    <input type="checkbox" name="sides">Fries
+    <input type="checkbox" name="sides">Chips
+    <input type="checkbox" name="sides">Sweet Potato Fries
+    <input type="checkbox" name="sides">Sodas
+    <input type="checkbox" name="sides">Fried Pickles
+    <input type="checkbox" name="sides">Cheese Sticks
+
+    <br>
+    <br>
+    
+    <label for="data-entry">Extras</label>
+    <br>
+    <br>
+    <textarea id="data-entry" rows="7" cols="42"  placeholder="Enter extra instructions here!"></textarea>
+    
+    <br>
+    <br>
+    <br>
+
+    <label>Go to Checkout</label>
+    <br>
+    <br>
+    <input type="submit">
+    <input type="reset">
+</form>
+</body>
+
+</html>
